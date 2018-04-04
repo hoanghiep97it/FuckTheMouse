@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/imgMouseLeft"
+        android:layout_width="70dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/mouseleft" />
+
+    <ImageView
+        android:id="@+id/imgMouseRight"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/imgMouseLeft"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/mouseright" />
+
+    <ImageView
+        android:id="@+id/imgCake"
+        android:layout_width="81dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="217dp"
+        app:srcCompat="@drawable/cake"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="83dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/imgCake"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:layout_marginTop="89dp"
+        android:background="@drawable/play"
+        android:text="Play" />
+
+</RelativeLayout>
